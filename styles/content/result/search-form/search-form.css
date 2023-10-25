@@ -94,16 +94,10 @@
   border: 1px solid #fff;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  display: block;
-  width: 15px;
-  height: 15px;
-  margin: auto;
-  text-align: center;
-  background-color: #fff;
+.search-form__checkbox:checked + .search-form__pseudo-checkbox{
+  background-image: url(../../../../images/checkbox-active.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .search-form__submit-button {
