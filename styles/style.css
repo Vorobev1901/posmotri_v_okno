@@ -1,3 +1,7 @@
+@import url("content/content.css");
+@import url("button.css");
+@import url("visually-hidden.css");
+
 *,
 *::before,
 *::after {
@@ -9,13 +13,15 @@ html {
 }
 
 .page {
-  inline-size: 1200px;
-  block-size: 100%;
+  display: flex;
+  align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  inline-size: 1200px;
+  block-size: 100%;
 }
 
 h1,
@@ -36,3 +42,4 @@ ul,
 ol {
   list-style: none;
 }
+
