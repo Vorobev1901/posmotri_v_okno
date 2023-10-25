@@ -18,11 +18,3 @@
   position: relative;
   color: #545050;
 }
-/* 
-.content__accent::after {
-  content: "-";
-  position: absolute;
-  top: 8px;
-  right: -28px;
-  display: block;
-} */
