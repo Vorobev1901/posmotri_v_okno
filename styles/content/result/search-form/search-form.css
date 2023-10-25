@@ -95,7 +95,7 @@
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   display: block;
