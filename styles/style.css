@@ -96,7 +96,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   margin: auto auto;
-  inline-size: 1148px; /* с учетом ползунка */
+  inline-size: 1140px; 
 }
 
 /* result */
@@ -342,7 +342,8 @@ ol {
   flex-direction: column;
   gap: 6px;
   color: #fff;
-}
+  max-width: 194px;
+  }
 
 .content__video-card-title {
   margin-block-start: 3px;
@@ -352,6 +353,9 @@ ol {
   font-style: normal;
   line-height: 1;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
